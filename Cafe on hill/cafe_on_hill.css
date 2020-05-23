@@ -1,0 +1,257 @@
+/* header */
+
+.logo {
+	width: 120px;
+	height: 90px;
+}
+
+header {
+	margin: -8px;
+	border: 1px solid #000;
+	background-color: #000;
+	height: 100px;
+	width: 500vh;
+	position: fixed;
+}
+
+.Zagolovok {
+	color: #ffffff;
+	font-size: 35px;
+	margin-top: 10px;
+	display: inline;
+	vertical-align: 60%;
+}
+
+/* navigation */
+
+nav {
+	display: inline;
+}
+
+.nav_text {
+	display: inline-block;
+	margin-left: 50px;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+#left_margin {
+	margin-left: 200px;
+}
+
+.nav_text:link {
+	color: #ffffff;
+}
+
+.nav_text:visited {
+	color: #ffffff;
+}
+
+.nav_text:hover {
+	cursor: pointer;
+}
+
+/* main */
+
+main {
+	margin-left: -8px;
+	margin-right: -8px;
+}
+
+.h2 {
+	margin-left: 20px;
+	margin-top: 150px;
+}
+
+.opisanie {
+	margin-left: 20px;
+	font-size: 16px;
+	font-family: Arial;
+	text-align: justify;
+}
+
+.HF {
+	font-weight: bold;
+	text-align: center;
+	font-size: 25px;
+}
+
+.what {
+	margin-top: 150px;
+}
+
+.what h2 {
+	text-align: center;
+}
+
+.cWhat {
+	text-align: justify;
+	font-size: 16px;
+	font-family: Arial;
+	margin-left: 20px;
+}
+
+.photo_gallery {
+	text-align: center;
+}
+
+.menu img,
+.photo_gallery img {
+	width: 320px;
+	height: 180px;
+	margin-top: 30px;
+}
+
+#aa {
+	margin-left: 20px;
+}
+
+.li {
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+/* table */
+
+.table h2 {
+	margin-top: 300px;
+}
+
+table{
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin-bottom: 50px;
+}
+table, td, th {
+	border: 1px solid #595959;
+}
+td, th {
+	padding: 3px;
+	width: 30px;
+	height: 35px;
+}
+th {
+	background-color: #7accee;
+}
+
+/* bron */
+
+.bron {
+	margin-top: 150px;
+	width: 100vh;
+	height: 100vh;
+}
+
+.button {
+	text-align: center;
+	margin-left: 90vh;
+	margin-top: 40vh;
+	border-color: #00FF0C;
+	background-color: #00FF0C;
+}
+
+.body {
+	background-image: url('bi.jpg');
+	background-repeat: no-repeat;
+	width: 210vh;
+	height:100vh;
+}
+
+/* otzivi */
+
+.otzivi {
+	margin-top: 140px;
+}
+
+.otzivi ul li {
+	border: 1px solid silver;
+}
+
+.images {
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+}
+
+.Otziv {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	list-style-type: none;
+	width: 200vh;
+}
+
+.Otziv p {
+	padding-left: 30px;
+}
+
+.Otziv code {
+	vertical-align: top;
+}
+
+#first, #third, #seventh {
+	margin-bottom: -30px;
+}
+
+.Otvet {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	list-style-type: none;
+	width: 180vh;
+	margin-left: 20vh;
+}
+
+.Otvet p {
+	padding-left: 30px;
+}
+
+.Otvet code {
+	vertical-align: top;
+}
+
+#input textarea {
+	resize: none;
+	height: 40px;
+	width: 1250px;
+}
+
+#input {
+	border: 1px solid silver;
+	margin-bottom: 30px;
+	margin-left: 36px;
+	height: 80px;
+	width: 200vh;
+	margin-bottom: 50px;
+}
+
+/*footer*/
+
+footer {
+	border: 1px solid #000000;
+	background-color: #000000;
+	color: #ffffff;
+	margin: -8px;
+	font-size: 20px;
+	display: inline-block;
+	width: 207vh;
+	height: 200px;
+	margin-bottom: -8px;
+}
+
+footer a:link {
+	color: white;
+}
+
+footer a:visited {
+	color:  white;
+}
